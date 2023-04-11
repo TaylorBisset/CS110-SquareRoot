@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    double argument = 0;
+    double returnValue = 0;
+
+    cin >> argument;
+
+    cout << returnValue;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
