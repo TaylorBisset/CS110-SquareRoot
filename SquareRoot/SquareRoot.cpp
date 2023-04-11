@@ -12,9 +12,10 @@ int main()
     double argument = 0;
     double returnValue = 0;
 
+    cout << "Please enter a whole number, so I can give you the square root\n";
     cin >> argument;
     returnValue = sqrt(argument);
-    cout << returnValue << endl;
+    cout << "The square root of " << argument << ", is " << returnValue << endl;
     system("pause");
     return 0;
 }
