@@ -2,7 +2,10 @@
 //
 
 #include <iostream>
+#include <math.h>
+
 using namespace std;
+
 
 int main()
 {
@@ -10,8 +13,10 @@ int main()
     double returnValue = 0;
 
     cin >> argument;
-
-    cout << returnValue;
+    returnValue = sqrt(argument);
+    cout << returnValue << endl;
+    system("pause");
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
