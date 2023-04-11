@@ -6,16 +6,18 @@
 
 using namespace std;
 
-
 int main()
 {
     double argument = 0;
     double returnValue = 0;
 
-    cout << "Please enter a whole number, so I can give you the square root\n";
+    cout << "Please enter number\n";
     cin >> argument;
+
     returnValue = sqrt(argument);
-    cout << "The square root of " << argument << ", is " << returnValue << endl;
+    cout << "The square root of " << argument << " is " << returnValue << endl
+        << "and " << argument << " squared is " << pow(argument, 2) << endl << endl;
+
     system("pause");
     return 0;
 }
